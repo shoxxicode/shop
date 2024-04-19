@@ -6,7 +6,7 @@ import session from 'express-session'
 import varMiddleware from './middleware/var.js'
 import cookieParser from 'cookie-parser'
 import userMiddleware from './middleware/user.js'
-import * as dotenv from 'dotenv'
+import dotenv from 'dotenv'
 import hbsHelpers from './utils/index.js'
 
 // ROUTES
